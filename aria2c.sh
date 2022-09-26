@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 read -p "URLを入力" url
 if [ -z "$url" ]; then
   echo "URLが入力されていません。再度実行してください。"
